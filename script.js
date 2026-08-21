@@ -197,36 +197,6 @@ function waterIntakeCheck() {
         ).innerHTML = "DRINK MORE WATER";
     }
 }
-/*
-let fitnessTips = [
-    "Drink enough water before and after exercising.",
-    "Always warm up before doing any exercise.",
-    "Start with simple exercises and slowly improve.",
-    "Take a short break when your body feels tired.",
-    "Eat healthy food to help keep your body strong.",
-    "Get enough sleep so your body can rest and recover.",
-    "Exercise regularly and make it part of your routine.",
-]
-
-function displayTips() {
-    let tips = document.getElementById("Tips");
-        for (let k = 0; k < fitnessTips.length; i++) {
-            tips.innerHTML += 
-                "<p>" + fitnessTips[i] + "</p>"
-    }
-}
-
-function showRandomTips() {
-    let randomNumber =
-        Math.floor(Math.random() * fitnessTips.length);
-        document.getElementById("Random tips").innerHTML = fitnessTips[randomNumber];
-}
-
-displayTips();
-*/
-
-
-
 
 var fullbody = [
     "Jumping Jacks - 30 seconds",
