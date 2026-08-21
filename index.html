@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITzone -- Your Fitness Tracker Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="menuButton">☰</button>
+    <nav id="navigation"></nav>
+    <div id = "content"></div>
+
+    <div id="Home" class="page">
+        <h1>Home</h1>
+        <p1>Unleash your full potential</p1><br>
+        <p1>Discover personalized fitness plans and home workouts designed to help you build strength, improve and achieve your fitness goals.</p1>
+<!--
+    <div class="tips-section">
+     <h2>FITNESS TIPS</h2>
+     <button onclick="showRandomTip()">
+      Show Random Tip
+     </button>
+     <p id="randomTip"></p>
+    </div>
+    </div>
+-->
+
+<h1>FITNESS TIPS</h1>
+<div class="line"></div>
+<ul>
+  <li>Drink enough water before and after exercising.</li>
+  <li>Always warm up before doing any exercise.</li>
+  <li>Start with simple exercises and slowly improve.</li>
+  <li>Take a short break when your body feels tired.</li>
+  <li>Eat healthy food to help keep your body strong.</li>
+  <li>Get enough sleep so your body can rest and recover.</li>
+  <li>Exercise regularly and make it part of your routine.</li>
+</ul>
+</div>
+</div>
+
+<div class="line"></div>
+    <div id="Dashboard" class="page">
+    <div class="bmi-section">
+
+    <h2>BMI CALCULATOR</h2>
+        <div class="calculator">
+            <p>Height (in cm)</p>
+            <input type="text" id="height">
+            <p>Weight (in kg)</p>
+            <input type="text" id="weight">
+            <button id="btn">Calculate BMI</button>
+            <div id="result"></div>
+          <br><br>
+
+        <p>How many glasses of water have you taken today?</p>
+          <p id="numberOfGlasses">0</p>
+          <button onclick="removeGlass()">−</button>
+          <button onclick="addGlass()">+</button>
+          <br><br>
+          <button onclick="waterIntakeCheck()">Check</button>
+          <p id="resultWater"></p>
+    </div>
+    </div>
+    </div>
+
+    <p1 style="margin-bottom: 50px;"></p1>
+
+    <div id="Statistics" class="page">
+        <h1>WORKOUTS</h1>
+        <p1>WORKOUT RECOMMENDATIONS</p1>
+
+        <div class="container">
+
+        <h4>WORKOUT GENERATOR</h4>
+        <p>Create your own workout plan!</p>
+
+        <label>Choose your workout:</label>
+
+         <select id="workout">
+            <option value="">Select your workout</option>
+            <option value="fullbody">Full Body 🏋️</option>
+            <option value="arms">Arms 💪</option>
+            <option value="legs">Legs 🦵</option>
+            <option value="core">Core 🔥</option>
+            <option value="cardio">Cardio 🏃</option>
+        </select>
+
+        <br><br>
+
+        <label>Choose difficulty:</label>
+
+        <select id="difficulty">
+            <option value="">Select Difficulty</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select>
+        <br><br>
+        <button id="generate">GENERATE WORKOUT</button>
+        <div id="resultWorkout"></div>
+    </div>
+    </div>
+
+
+    <div id="Profile" class="page">
+        <h3>Profile</h3>
+        <p1>My Profile</p1>
+        <br>
+        <div class="circle"></div>
+        <p1>Name: Daniel Julian Cataniag</p1><br>
+        <hr>
+        <p1>Age: 25</p1><br>
+        <hr>
+        <p1>Gender: Male</p1><br>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITzone -- Your Fitness Tracker Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="menuButton">☰</button>
+    <nav id="navigation"></nav>
+    <div id = "content"></div>
+
+    <div id="Home" class="page">
+        <h1>Home</h1>
+        <p1>Unleash your full potential</p1><br>
+        <p1>Discover personalized fitness plans and home workouts designed to help you build strength, improve and achieve your fitness goals.</p1>
+<!--
+    <div class="tips-section">
+     <h2>FITNESS TIPS</h2>
+     <button onclick="showRandomTip()">
+      Show Random Tip
+     </button>
+     <p id="randomTip"></p>
+    </div>
+    </div>
+-->
+
+<h1>FITNESS TIPS</h1>
+<div class="line"></div>
+<ul>
+  <li>Drink enough water before and after exercising.</li>
+  <li>Always warm up before doing any exercise.</li>
+  <li>Start with simple exercises and slowly improve.</li>
+  <li>Take a short break when your body feels tired.</li>
+  <li>Eat healthy food to help keep your body strong.</li>
+  <li>Get enough sleep so your body can rest and recover.</li>
+  <li>Exercise regularly and make it part of your routine.</li>
+</ul>
+</div>
+</div>
+
+<div class="line"></div>
+    <div id="Dashboard" class="page">
+    <div class="bmi-section">
+
+    <h2>BMI CALCULATOR</h2>
+        <div class="calculator">
+            <p>Height (in cm)</p>
+            <input type="text" id="height">
+            <p>Weight (in kg)</p>
+            <input type="text" id="weight">
+            <button id="btn">Calculate BMI</button>
+            <div id="result"></div>
+          <br><br>
+
+        <p>How many glasses of water have you taken today?</p>
+          <p id="numberOfGlasses">0</p>
+          <button onclick="removeGlass()">−</button>
+          <button onclick="addGlass()">+</button>
+          <br><br>
+          <button onclick="waterIntakeCheck()">Check</button>
+          <p id="resultWater"></p>
+    </div>
+    </div>
+    </div>
+
+    <p1 style="margin-bottom: 50px;"></p1>
+
+    <div id="Statistics" class="page">
+        <h1>WORKOUTS</h1>
+        <p1>WORKOUT RECOMMENDATIONS</p1>
+
+        <div class="container">
+
+        <h4>WORKOUT GENERATOR</h4>
+        <p>Create your own workout plan!</p>
+
+        <label>Choose your workout:</label>
+
+         <select id="workout">
+            <option value="">Select your workout</option>
+            <option value="fullbody">Full Body 🏋️</option>
+            <option value="arms">Arms 💪</option>
+            <option value="legs">Legs 🦵</option>
+            <option value="core">Core 🔥</option>
+            <option value="cardio">Cardio 🏃</option>
+        </select>
+
+        <br><br>
+
+        <label>Choose difficulty:</label>
+
+        <select id="difficulty">
+            <option value="">Select Difficulty</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select>
+        <br><br>
+        <button id="generate">GENERATE WORKOUT</button>
+        <div id="resultWorkout"></div>
+    </div>
+    </div>
+
+
+    <div id="Profile" class="page">
+        <h3>Profile</h3>
+        <p1>My Profile</p1>
+        <br>
+        <div class="circle"></div>
+        <p1>Name: Daniel Julian Cataniag</p1><br>
+        <hr>
+        <p1>Age: 25</p1><br>
+        <hr>
+        <p1>Gender: Male</p1><br>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
