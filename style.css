@@ -244,71 +244,17 @@ li {
     padding: 20px;
     background-color: #eee;
 }
-/*
-.tips-section {
+
+body {
+    background-color: #101719;
     text-align: center;
-    padding: 30px;
-}
-
-
-.tips-section h2 {
-    color: #ffffff;
-    font-family: Georgia, serif;
-    font-size: 30px;
-}
-
-
-#tips {
-    width: 80%;
-    max-width: 600px;
-    margin: auto;
-}
-
-#tips p {
-    background-color: white;
-    color: black;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 8px;
-}
-
-
-.tips-section button {
-    background-color: #4cff91;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-
-.tips-section button:hover {
-    background-color: #08b477;
-    color: white;
-}
-
-
-#randomTip {
-    width: 80%;
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #08db5c;
-    color: black;
-    border-radius: 8px;
-}
-*/
-
-         body {
-          background-color: #101719;
-          text-align: center;
 }
  
-    h1 {
+h1 {
      color: white;
 }
  
-     .line {
+.line {
      border-top: 4px solid white;
 }
  
@@ -383,8 +329,7 @@ button {
 }
 
 .exercise {
-    background-color: #293538;
-    padding: 12px;
+    background-color: #293538;    padding: 12px;
     margin: 8px 0;
     border-radius: 10px;
 }
@@ -396,16 +341,3 @@ button {
     flex-direction: column;
 }
 
-.circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #4cff91;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
